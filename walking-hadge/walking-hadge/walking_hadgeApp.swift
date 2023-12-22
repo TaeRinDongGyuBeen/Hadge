@@ -1,6 +1,6 @@
 //
-//  Walking_HadgeApp.swift
-//  Walking_Hadge
+//  walking_hadgeApp.swift
+//  walking-hadge
 //
 //  Created by 김태형 on 2023/12/22.
 //
@@ -8,9 +8,7 @@
 import SwiftUI
 
 @main
-struct Walking_HadgeApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct walking_hadgeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

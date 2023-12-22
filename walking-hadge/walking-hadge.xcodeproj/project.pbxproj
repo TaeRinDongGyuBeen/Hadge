@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1635E2072B3534FB0001E36F /* Walking_HadgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2062B3534FB0001E36F /* Walking_HadgeApp.swift */; };
-		1635E2092B3534FB0001E36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2082B3534FB0001E36F /* ContentView.swift */; };
-		1635E20B2B3534FC0001E36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E20A2B3534FC0001E36F /* Assets.xcassets */; };
-		1635E20E2B3534FC0001E36F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E20D2B3534FC0001E36F /* Preview Assets.xcassets */; };
-		1635E2102B3534FC0001E36F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E20F2B3534FC0001E36F /* Persistence.swift */; };
-		1635E2132B3534FC0001E36F /* Walking_Hadge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2112B3534FC0001E36F /* Walking_Hadge.xcdatamodeld */; };
+		1635E2262B35536B0001E36F /* walking_hadgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2252B35536B0001E36F /* walking_hadgeApp.swift */; };
+		1635E2282B35536B0001E36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2272B35536B0001E36F /* ContentView.swift */; };
+		1635E22A2B35536C0001E36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E2292B35536C0001E36F /* Assets.xcassets */; };
+		1635E22D2B35536C0001E36F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E22C2B35536C0001E36F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1635E2032B3534FB0001E36F /* Walking_Hadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walking_Hadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1635E2062B3534FB0001E36F /* Walking_HadgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walking_HadgeApp.swift; sourceTree = "<group>"; };
-		1635E2082B3534FB0001E36F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1635E20A2B3534FC0001E36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1635E20D2B3534FC0001E36F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1635E20F2B3534FC0001E36F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1635E2122B3534FC0001E36F /* Walking_Hadge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Walking_Hadge.xcdatamodel; sourceTree = "<group>"; };
+		1635E2222B35536B0001E36F /* walking-hadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walking-hadge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1635E2252B35536B0001E36F /* walking_hadgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walking_hadgeApp.swift; sourceTree = "<group>"; };
+		1635E2272B35536B0001E36F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1635E2292B35536C0001E36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1635E22C2B35536C0001E36F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1635E2002B3534FB0001E36F /* Frameworks */ = {
+		1635E21F2B35536B0001E36F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1635E1FA2B3534FB0001E36F = {
+		1635E2192B35536B0001E36F = {
 			isa = PBXGroup;
 			children = (
-				1635E2052B3534FB0001E36F /* Walking_Hadge */,
-				1635E2042B3534FB0001E36F /* Products */,
+				1635E2242B35536B0001E36F /* walking-hadge */,
+				1635E2232B35536B0001E36F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1635E2042B3534FB0001E36F /* Products */ = {
+		1635E2232B35536B0001E36F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1635E2032B3534FB0001E36F /* Walking_Hadge.app */,
+				1635E2222B35536B0001E36F /* walking-hadge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1635E2052B3534FB0001E36F /* Walking_Hadge */ = {
+		1635E2242B35536B0001E36F /* walking-hadge */ = {
 			isa = PBXGroup;
 			children = (
-				1635E2062B3534FB0001E36F /* Walking_HadgeApp.swift */,
-				1635E2082B3534FB0001E36F /* ContentView.swift */,
-				1635E20A2B3534FC0001E36F /* Assets.xcassets */,
-				1635E20F2B3534FC0001E36F /* Persistence.swift */,
-				1635E2112B3534FC0001E36F /* Walking_Hadge.xcdatamodeld */,
-				1635E20C2B3534FC0001E36F /* Preview Content */,
+				1635E2252B35536B0001E36F /* walking_hadgeApp.swift */,
+				1635E2272B35536B0001E36F /* ContentView.swift */,
+				1635E2292B35536C0001E36F /* Assets.xcassets */,
+				1635E22B2B35536C0001E36F /* Preview Content */,
 			);
-			path = Walking_Hadge;
+			path = "walking-hadge";
 			sourceTree = "<group>";
 		};
-		1635E20C2B3534FC0001E36F /* Preview Content */ = {
+		1635E22B2B35536C0001E36F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1635E20D2B3534FC0001E36F /* Preview Assets.xcassets */,
+				1635E22C2B35536C0001E36F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1635E2022B3534FB0001E36F /* Walking_Hadge */ = {
+		1635E2212B35536B0001E36F /* walking-hadge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1635E2162B3534FC0001E36F /* Build configuration list for PBXNativeTarget "Walking_Hadge" */;
+			buildConfigurationList = 1635E2302B35536C0001E36F /* Build configuration list for PBXNativeTarget "walking-hadge" */;
 			buildPhases = (
-				1635E1FF2B3534FB0001E36F /* Sources */,
-				1635E2002B3534FB0001E36F /* Frameworks */,
-				1635E2012B3534FB0001E36F /* Resources */,
+				1635E21E2B35536B0001E36F /* Sources */,
+				1635E21F2B35536B0001E36F /* Frameworks */,
+				1635E2202B35536B0001E36F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Walking_Hadge;
-			productName = Walking_Hadge;
-			productReference = 1635E2032B3534FB0001E36F /* Walking_Hadge.app */;
+			name = "walking-hadge";
+			productName = "walking-hadge";
+			productReference = 1635E2222B35536B0001E36F /* walking-hadge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1635E1FB2B3534FB0001E36F /* Project object */ = {
+		1635E21A2B35536B0001E36F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1635E2022B3534FB0001E36F = {
+					1635E2212B35536B0001E36F = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 1635E1FE2B3534FB0001E36F /* Build configuration list for PBXProject "Walking_Hadge" */;
+			buildConfigurationList = 1635E21D2B35536B0001E36F /* Build configuration list for PBXProject "walking-hadge" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 1635E1FA2B3534FB0001E36F;
-			productRefGroup = 1635E2042B3534FB0001E36F /* Products */;
+			mainGroup = 1635E2192B35536B0001E36F;
+			productRefGroup = 1635E2232B35536B0001E36F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1635E2022B3534FB0001E36F /* Walking_Hadge */,
+				1635E2212B35536B0001E36F /* walking-hadge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1635E2012B3534FB0001E36F /* Resources */ = {
+		1635E2202B35536B0001E36F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1635E20E2B3534FC0001E36F /* Preview Assets.xcassets in Resources */,
-				1635E20B2B3534FC0001E36F /* Assets.xcassets in Resources */,
+				1635E22D2B35536C0001E36F /* Preview Assets.xcassets in Resources */,
+				1635E22A2B35536C0001E36F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1635E1FF2B3534FB0001E36F /* Sources */ = {
+		1635E21E2B35536B0001E36F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1635E2102B3534FC0001E36F /* Persistence.swift in Sources */,
-				1635E2092B3534FB0001E36F /* ContentView.swift in Sources */,
-				1635E2072B3534FB0001E36F /* Walking_HadgeApp.swift in Sources */,
-				1635E2132B3534FC0001E36F /* Walking_Hadge.xcdatamodeld in Sources */,
+				1635E2282B35536B0001E36F /* ContentView.swift in Sources */,
+				1635E2262B35536B0001E36F /* walking_hadgeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1635E2142B3534FC0001E36F /* Debug */ = {
+		1635E22E2B35536C0001E36F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -216,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		1635E2152B3534FC0001E36F /* Release */ = {
+		1635E22F2B35536C0001E36F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -272,14 +264,14 @@
 			};
 			name = Release;
 		};
-		1635E2172B3534FC0001E36F /* Debug */ = {
+		1635E2312B35536C0001E36F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Walking_Hadge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"walking-hadge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -287,13 +279,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.ted.Walking-Hadge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.ted.walking-hadge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		1635E2182B3534FC0001E36F /* Release */ = {
+		1635E2322B35536C0001E36F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Walking_Hadge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"walking-hadge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,13 +307,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.ted.Walking-Hadge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.ted.walking-hadge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,38 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1635E1FE2B3534FB0001E36F /* Build configuration list for PBXProject "Walking_Hadge" */ = {
+		1635E21D2B35536B0001E36F /* Build configuration list for PBXProject "walking-hadge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1635E2142B3534FC0001E36F /* Debug */,
-				1635E2152B3534FC0001E36F /* Release */,
+				1635E22E2B35536C0001E36F /* Debug */,
+				1635E22F2B35536C0001E36F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1635E2162B3534FC0001E36F /* Build configuration list for PBXNativeTarget "Walking_Hadge" */ = {
+		1635E2302B35536C0001E36F /* Build configuration list for PBXNativeTarget "walking-hadge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1635E2172B3534FC0001E36F /* Debug */,
-				1635E2182B3534FC0001E36F /* Release */,
+				1635E2312B35536C0001E36F /* Debug */,
+				1635E2322B35536C0001E36F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1635E2112B3534FC0001E36F /* Walking_Hadge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1635E2122B3534FC0001E36F /* Walking_Hadge.xcdatamodel */,
-			);
-			currentVersion = 1635E2122B3534FC0001E36F /* Walking_Hadge.xcdatamodel */;
-			path = Walking_Hadge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 1635E1FB2B3534FB0001E36F /* Project object */;
+	rootObject = 1635E21A2B35536B0001E36F /* Project object */;
 }
