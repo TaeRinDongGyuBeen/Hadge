@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct walking_hadgeApp: App {
+struct WalkingHadgeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

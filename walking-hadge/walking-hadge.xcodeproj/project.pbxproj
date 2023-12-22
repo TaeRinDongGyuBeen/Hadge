@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1635E2262B35536B0001E36F /* walking_hadgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2252B35536B0001E36F /* walking_hadgeApp.swift */; };
+		1635E2262B35536B0001E36F /* WalkingHadgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2252B35536B0001E36F /* WalkingHadgeApp.swift */; };
 		1635E2282B35536B0001E36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E2272B35536B0001E36F /* ContentView.swift */; };
 		1635E22A2B35536C0001E36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E2292B35536C0001E36F /* Assets.xcassets */; };
 		1635E22D2B35536C0001E36F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635E22C2B35536C0001E36F /* Preview Assets.xcassets */; };
+		1635E2382B35848F0001E36F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1635E2372B35848F0001E36F /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1635E2222B35536B0001E36F /* walking-hadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walking-hadge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1635E2252B35536B0001E36F /* walking_hadgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walking_hadgeApp.swift; sourceTree = "<group>"; };
+		1635E2252B35536B0001E36F /* WalkingHadgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingHadgeApp.swift; sourceTree = "<group>"; };
 		1635E2272B35536B0001E36F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1635E2292B35536C0001E36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1635E22C2B35536C0001E36F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1635E2372B35848F0001E36F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		1635E2192B35536B0001E36F = {
 			isa = PBXGroup;
 			children = (
+				1635E2372B35848F0001E36F /* .swiftlint.yml */,
 				1635E2242B35536B0001E36F /* walking-hadge */,
 				1635E2232B35536B0001E36F /* Products */,
 			);
@@ -51,7 +54,7 @@
 		1635E2242B35536B0001E36F /* walking-hadge */ = {
 			isa = PBXGroup;
 			children = (
-				1635E2252B35536B0001E36F /* walking_hadgeApp.swift */,
+				1635E2252B35536B0001E36F /* WalkingHadgeApp.swift */,
 				1635E2272B35536B0001E36F /* ContentView.swift */,
 				1635E2292B35536C0001E36F /* Assets.xcassets */,
 				1635E22B2B35536C0001E36F /* Preview Content */,
@@ -74,6 +77,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1635E2302B35536C0001E36F /* Build configuration list for PBXNativeTarget "walking-hadge" */;
 			buildPhases = (
+				1635E2342B3581140001E36F /* SwiftLint */,
 				1635E21E2B35536B0001E36F /* Sources */,
 				1635E21F2B35536B0001E36F /* Frameworks */,
 				1635E2202B35536B0001E36F /* Resources */,
@@ -125,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1635E2382B35848F0001E36F /* .swiftlint.yml in Resources */,
 				1635E22D2B35536C0001E36F /* Preview Assets.xcassets in Resources */,
 				1635E22A2B35536C0001E36F /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +137,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1635E2342B3581140001E36F /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"[warning] SwiftLint not installed, download using `brew install swiftlint`\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1635E21E2B35536B0001E36F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1635E2282B35536B0001E36F /* ContentView.swift in Sources */,
-				1635E2262B35536B0001E36F /* walking_hadgeApp.swift in Sources */,
+				1635E2262B35536B0001E36F /* WalkingHadgeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +272,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
